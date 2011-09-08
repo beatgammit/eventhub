@@ -2,8 +2,8 @@
 	"author": "T. Jameson Little <t.jameson.little@gmail.com>",
 	"name": "eventhub",
 	"description": "Message passing in node implemented with EventEmitters",
-	"keywords": ["message", "messages", "events", "event", "hub", "eventemitter", "emitter"],
-	"version": "1.0.0",
+	"keywords": ["ender", "message", "messages", "events", "event", "hub", "eventemitter", "emitter"],
+	"version": "1.0.1",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/beatgammit/eventhub.git"
@@ -15,7 +15,9 @@
 	"engines": {
 		"node": "~v0.4.10"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"events.node": "~0"
+	},
 	"devDependencies": {
 		"forEachAsync": "~2.1"
 	}
