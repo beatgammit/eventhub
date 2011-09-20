@@ -3,7 +3,7 @@
 	"name": "eventhub",
 	"description": "Message passing in node implemented with EventEmitters",
 	"keywords": ["ender", "message", "messages", "events", "event", "hub", "eventemitter", "emitter"],
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/beatgammit/eventhub.git"
@@ -13,7 +13,7 @@
 		"test": "cd test; node test.js; cd .."
 	},
 	"engines": {
-		"node": "~v0.4.10"
+		"node": ">= v0.4.0"
 	},
 	"dependencies": {
 		"events.node": "~0"
